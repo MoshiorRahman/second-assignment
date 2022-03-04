@@ -158,11 +158,18 @@ footer img{
   .banner{
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .banner img{
+    width: 100%;
   }
 
   .players{
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0;
   }
 
   .services{
@@ -172,5 +179,8 @@ footer img{
   .registration-form{
     display: flex;
     flex-direction: column;
+  }
+  .reg-thumbnail{
+    margin: 0;
   }
 }
